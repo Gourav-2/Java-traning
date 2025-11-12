@@ -1,31 +1,51 @@
-package class2;
+package class3;
+
+// import java.net.SocketPermission;
 
 public class string {
     public static void main(String[] args) {
-        //*************************string*******
         // String str ="hello";
-        // for(int i=0;i<str.length();i++){
-        //     System.out.println(str.charAt(i));
+        // String str1 ="hello";
+        // System.out.println(str.length());
+        // System.out.println(str.charAt(3));
+        // System.out.println(str.toLowerCase());
+        // System.out.println(str.toUpperCase());
+        // System.out.println(str.indexOf("o"));
+        // System.out.println(str.substring(2));
+        // System.out.println(str.substring(1, 3));
+        // System.out.println(str.trim());
 
-        // }
-        
-        // String str ="hello";
-        // for(int i=str.length()-1;i>=0;i--){
-        //     System.out.println(str.charAt(i));
 
-        // }
+      //  System.out.println(str.equals(1));//yw batata hai ki to string equal hai ya nahi
 
 
-        //************************************pelendrom *************/
-        String str ="hello";
-        char[] ch = str.toCharArray();
-        for (int i =ch.length-1;i>=0;i--){
-            // System.out.print(ch[i]);
-            // short b = ch[i];
-            
-        }
-        
-        
+
+
+
+
+
+      //*****************************palindrome********************** */
+    //   String a ="nitin";
+    //   String b="";
+    //   for(int i =a.length()-1;i>=0;i--){
+    //     b+=a.charAt(i);
+    //   }
+    //   if (a.equals(b)){
+    //     System.out.println("Palindrome");
+    //   }
+    //   else{
+    //     System.out.println("not Palindrome");
+    //   }
+
+
+
+      //*********************************************** */
+      String str="hello java cpp";
+      String a[]=str.split(" ");
+
+      for(String str1 : a){
+        System.out.println(str);
+      }
 
 
     }
