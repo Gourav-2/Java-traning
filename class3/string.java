@@ -25,17 +25,28 @@ public class string {
 
 
       //*****************************palindrome********************** */
-      String a ="nitin";
-      String b="";
-      for(int i =a.length()-1;i>=0;i--){
-        b+=a.charAt(i);
+    //   String a ="nitin";
+    //   String b="";
+    //   for(int i =a.length()-1;i>=0;i--){
+    //     b+=a.charAt(i);
+    //   }
+    //   if (a.equals(b)){
+    //     System.out.println("Palindrome");
+    //   }
+    //   else{
+    //     System.out.println("not Palindrome");
+    //   }
+
+
+
+      //*********************************************** */
+      String str="hello java cpp";
+      String a[]=str.split(" ");
+
+      for(String str1 : a){
+        System.out.println(str);
       }
-      if (a.equals(b)){
-        System.out.println("Palindrome");
-      }
-      else{
-        System.out.println("not Palindrome");
-      }
+
 
     }
     

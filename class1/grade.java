@@ -1,4 +1,4 @@
-
+package class1;
 class Grade {
    public static void main(String[]args){
        int mark=95;
