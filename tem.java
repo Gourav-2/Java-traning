@@ -1,4 +1,4 @@
-package class2;
+// package class2;
 import java.util.Scanner;
 public class tem {
     public static void main(String[] args) {
