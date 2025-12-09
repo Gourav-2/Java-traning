@@ -1,5 +1,8 @@
-package class11;
-import java.util.*;
+package class12;
+
+import java.util.ArrayList;
+import java.util.ListIterator;
+
 public class listiterator {
     public static void main(String[] args) {
         ArrayList<Integer> gou = new ArrayList<>();
@@ -11,21 +14,12 @@ public class listiterator {
         ListIterator<Integer> yo=gou.listIterator();
         while (yo.hasNext()) {
             Integer r=yo.next();
-            // System.out.println(r);
-            if(r==6){
-                // yo.add(7);
-                yo.set(7);
-                 
-                
-            }
+            
+          
             
             
         }
-        // while (yo.hasPrevious()) {
-        //     Integer r=yo.previous();
-        //     System.out.println(r);
-        // }
-    }
 
     
+}
 }
