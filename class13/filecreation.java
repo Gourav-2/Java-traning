@@ -12,18 +12,29 @@ public class filecreation {
     //         // TODO: handle exception
     //     }
     // }
-    static void Fileread(){
+    // static void Fileread(){//this function use to read data inside file
+    //     try {
+    //         FileReader reader = new FileReader("try.py");
+    //         int ch;
+    //         while((ch=reader.read())!=-1){
+    //             System.out.println((char)ch);
+    //         }
+    //     } catch (Exception e) {
+    //         // TODO: handle exception
+    //         System.out.println(e);
+    //     }
+    // }
+    static void filedelete(){
         try {
-            FileReader reader = new FileReader("try.py");
-            int ch;
-            while((ch=reader.read())!=-1){
-                System.out.println((char)ch);
+            File file = new File("try.py");
+            if(file.delete()){
+                System.out.println("file is deleted ");
             }
         } catch (Exception e) {
             // TODO: handle exception
-            System.out.println(e);
         }
     }
+
     
     public static void main(String[] args) {
         // File file = new File("try.py");//code file banane ke liaa is code ka use hota hai
@@ -39,7 +50,9 @@ public class filecreation {
         //     System.out.println(e);
         // }
         // writedata("print('hello')");
-        Fileread();
+        // Fileread();
+        filedelete();
+        
     }
 
 
